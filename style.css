@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#181818;
+    color:white;
+    padding : 30px;
+}
+h1{
+    text-align:center;
+    text-transform: uppercase;
+    margin-bottom : 20px;
+}
+
+a{
+    color:blanchedalmond;
+    text-decoration: none;
+}
+ul li, ol li{
+    margin-bottom : 5px;
+}
+
+h2{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color:goldenrod;
+}
+
+h3{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color:rgb(183, 162, 110);
+}
+
+img{
+    width : 350px;
+    margin-bottom : 20px;
+    -webkit-filter: sepia(50%);
+	filter: sepia(50%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+strong{
+    text-transform :uppercase;
+    font-size:25px;
+    color :antiquewhite;
+}
+
+.ingredients.odd li{
+    color :burlywood;
+}
