@@ -4,4 +4,5 @@
 
 The goal of this project is to learn :
 - HTML basics
+- CSS basics
 - Git basics

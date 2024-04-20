@@ -21,18 +21,18 @@ a{
 }
 ul li, ol li{
     margin-bottom : 5px;
+    list-style-position: inside;
 }
 
 h2{
-    margin-bottom: 15px;
-    margin-top: 15px;
     color:goldenrod;
+    margin-bottom : 10px;
 }
 
 h3{
-    margin-bottom: 15px;
-    margin-top: 15px;
     color:rgb(183, 162, 110);
+    margin-bottom : 10px;
+    margin-top : 10px;
 }
 
 img{
@@ -44,13 +44,29 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
-
+.description p{
+    text-align: center;
+}
 strong{
-    text-transform :uppercase;
+    
     font-size:25px;
     color :antiquewhite;
 }
 
 .ingredients.odd li{
     color :burlywood;
+}
+.recipe-element{
+    padding : 10px;
+    vertical-align: text-top;
+    display: inline-block;
+    margin: 15px;
+    background-color :rgba(255, 255, 255,0.1)
+}
+
+.description{
+    width : 80%;
+    margin:auto;
+    padding : 15px;
+    background-color: rgba(255,255,255,0.01);
 }
